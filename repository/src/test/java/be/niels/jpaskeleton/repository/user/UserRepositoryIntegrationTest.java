@@ -1,6 +1,7 @@
-package be.niels.jpaskeleton.domain;
+package be.niels.jpaskeleton.repository.user;
 
 import be.niels.jpaskeleton.Application;
+import be.niels.jpaskeleton.domain.user.User;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;

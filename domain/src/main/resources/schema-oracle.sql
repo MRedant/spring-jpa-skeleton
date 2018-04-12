@@ -1,0 +1,26 @@
+-- USERS
+DROP TABLE USERS;
+CREATE TABLE USERS(
+    ID number not null,
+    NAME varchar2(65),
+    constraint user_pk primary key (ID)
+);
+
+-- DIVISION
+DROP TABLE DIVISIONS;
+CREATE TABLE DIVISIONS (
+    id               NUMBER(6,0) NOT NULL,
+name             VARCHAR2(31) NOT NULL,
+originalname     VARCHAR2(31) NOT NULL,
+director         VARCHAR2(31) NOT NULL,
+parentdivision   NUMBER(5,0),
+CONSTRAINT division_pk PRIMARY KEY ( id )
+);
+
+-- SEQUENCE USERS
+DROP SEQUENCE USERS_SEQ;
+CREATE SEQUENCE USERS_SEQ start with 1 INCREMENT by 1;
+
+--SEQUENCE DIVISION
+DROP SEQUENCE DIVISIONS_SEQ;
+CREATE SEQUENCE DIVISIONS_SEQ start with 1 INCREMENT by 1;

@@ -1,4 +1,4 @@
-package be.niels.jpaskeleton.domain;
+package be.niels.jpaskeleton.domain.user;
 
 import javax.persistence.*;
 
@@ -8,7 +8,7 @@ public class User {
 
     @Id
     @Column(name = "ID")
-    @SequenceGenerator(name = "users_seq", sequenceName = "USERS_SEQUENCE", allocationSize = 1)
+    @SequenceGenerator(name = "users_seq", sequenceName = "USERS_SEQ", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "users_seq")
     private long id;
 
