@@ -16,14 +16,6 @@ public class DivisionRepositoryTest {
     @Autowired
     private DivisionRepository divisionRepository;
 
-//    public DivisionRepositoryTest() {
-//    }
-
-//    @Autowired
-//    public DivisionRepositoryTest(DivisionRepository divisionRepository) {
-//        this.divisionRepository = divisionRepository;
-//    }
-
     @Test
     public void save_createDivisionReturnsDivisionWithId() {
         //GIVEN

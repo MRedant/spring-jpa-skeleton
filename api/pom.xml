@@ -16,12 +16,6 @@
             <groupId>be.niels</groupId>
             <artifactId>service</artifactId>
          </dependency>
-
-        <dependency>
-            <groupId>oracle</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <systemPath>${basedir}/../libraries/ojdbc6-11.2.0.3.jar</systemPath>
-        </dependency>
     </dependencies>
 
 </project>
